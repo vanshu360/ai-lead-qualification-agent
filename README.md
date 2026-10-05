@@ -29,7 +29,7 @@ The workflow automatically:
 
 ## Workflow
 
-```text
+The workflow automates the lead qualification process from lead intake to CRM storage.
 Lead Data
    ↓
 Webhook
@@ -43,13 +43,15 @@ Lead Score + Priority + Buying Intent
 Recommended Action + Follow-up Message
    ↓
 Google Sheets CRM
-```
 
+### Actual n8n Workflow
+
+[AI Lead Qualification n8n Workflow](workflow.png)
 ## Tech Stack
 
 * **n8n** — workflow automation
 * **Groq** — LLM inference
-* **GPT-OSS-120B** — language model
+* **GPT-OSS-20B** — language model
 * **Webhooks** — lead intake
 * **Google Sheets** — CRM/storage
 * **Structured Output Parser** — consistent AI responses
